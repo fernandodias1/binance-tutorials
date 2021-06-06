@@ -4,6 +4,11 @@ from binance.client import Client
 from binance.enums import *
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
+# client.API_URL = 'https://testnet.binance.vision/api'  # To change endpoint URL for test account
+
+# info = client.get_account()  # Getting account info
+
+# print(info)
 
 RSI_PERIOD = 14
 RSI_OVERBOUGHT = 70
